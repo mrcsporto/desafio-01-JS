@@ -9,7 +9,7 @@ for (let i = 0; i < vendas.length; i++) {
         console.log('O vendedor NÃO atingiu a meta!')
     }
 }
-console.log(comissao);
+
 
 
 
