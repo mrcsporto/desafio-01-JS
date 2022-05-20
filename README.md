@@ -2,11 +2,13 @@
 
 Challenge 1 - Imprimir somente os números de um array que tem palavras e números usando "for"
 
-Challenge 2 - extra, imprimir todos os números dentro do array aqui:
+Challenge 2 - Imprimir todos os números dentro do array seguinte:
 
+  Exemplo 1
+  
     let array = [[1,9], [2,6], [3,4], [6,7]]
 
-    Mesmos aqui:
+  Exemplo 2
 
     let array = [[1,9], [2,6], [3,4], [6,7, 3,4,5]]
 
