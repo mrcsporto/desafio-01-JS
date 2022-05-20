@@ -1,6 +1,6 @@
 # Desafio de JS (Array e Loop)
 
-Challenge 1 - Imprimir somente os números de um array que tem palavras e números usando "for"
+Challenge 1 - Imprimir somente os números de um array que tem strings e números usando "for"
 
 Challenge 2 - Imprimir todos os números dentro do array seguinte:
 
