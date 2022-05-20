@@ -6,7 +6,6 @@ for(let i = 0; i < firstArray.length ; i++){
     }  
 }
 
-
 let secondArray = [[1,9], [2,6], [3,4], [6,7,3,4,5]]
 
 for(let k = 0; k < secondArray.length ; k++){ 
