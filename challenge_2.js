@@ -12,5 +12,3 @@ for(let k = 0; k < secondArray.length ; k++){
         console.log(secondArray[k][l])
     }  
 }
-
-
