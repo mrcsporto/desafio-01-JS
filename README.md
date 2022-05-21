@@ -2,6 +2,8 @@
 
 Challenge 1 - Imprimir somente os números de um array que tem strings e números usando "for"
 
+    let array = [false,'text_01',99,true,'33',285]
+
 Challenge 2 - Imprimir todos os números dentro do array seguinte:
 
     Exemplo 1
