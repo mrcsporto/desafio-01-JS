@@ -1,0 +1,54 @@
+# Array Observações aula anterior
+  
+  Exemplo: let arr [1,9,2,4,6]
+  
+  Se declarar arr[arr.length] = 10 ->> O comprimento do array = 5, portando ele acrescentará o 10 na posição 5 ficando assim -> let arr [1,9,2,4,6,10]
+  
+
+# Aula 21/05/2022
+
+  Functions - Criar uma função que executa linhas de código ou bloco de códigos. Importante quando queremos aproveitar em outros momentos.
+    - Exemplo: 
+    function soma () {
+       bloco de código
+    }
+    - Parâmetro. Dentro dos paranteses da função soma (n1, n2)
+      let somatorio = n1 + n2
+    - Para chamar função, digitar o nome da função seguido de parentese soma(3, 4) ele vai atibuir os valores ao parâmetros n1 e n2 na sua respetiva posição.
+    
+  *Return
+  Example 1
+    function operacaoX(n1,n2) {
+      let a = 1
+      let b = 4
+      let c = 10000 + b
+      let x = n1 + n2
+      
+      return x
+    }
+    
+    Example 2 
+    function sum(n1,n2) {
+    return n1 +n2
+    }
+  
+    function subtraction(n1, n2) {
+	  return n1 - n2
+    }
+
+    function division(n1, n2) {
+    return n1 / n2
+    }
+
+    function multiply(n1, n2) {
+    return n1 * n2
+    }
+
+    let resultado = multiply(2,sum(10,(multiply(2,(division(20,sum(4,2))))))) 
+    console.log(resultado)
+
+    
+    let resultado = operacaoX(6,2)
+    console.log(resultado)
+    
+    obs: Variáveis e parâmetros criados dentro da função só funcionam dentro dela.
