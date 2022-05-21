@@ -7,7 +7,7 @@
 
 # Aula 21/05/2022
 
-  Functions - Criar uma função que executa linhas de código ou bloco de códigos. Importante quando queremos aproveitar em outros momentos.
+*Functions - Criar uma função que executa linhas de código ou bloco de códigos. Importante quando queremos aproveitar em outros momentos.
     - Exemplo: 
     function soma () {
        bloco de código
@@ -16,7 +16,7 @@
       let somatorio = n1 + n2
     - Para chamar função, digitar o nome da função seguido de parentese soma(3, 4) ele vai atibuir os valores ao parâmetros n1 e n2 na sua respetiva posição.
     
-  *Return
+*Return
   Example 1
     function operacaoX(n1,n2) {
       let a = 1
@@ -26,6 +26,8 @@
       
       return x
     }
+    
+    ---------------------------------------------------------------------------------------------------------------------------------------------------------
     
     Example 2 
     function sum(n1,n2) {
@@ -51,4 +53,24 @@
     let resultado = operacaoX(6,2)
     console.log(resultado)
     
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+    function exercicioVendas (vendas) {
+    let somaVendas = 0
+    for (let i = 0; i<vendas.lenght; i++) {
+    	somaVendas += vendas[i]
+   	}
+	console.log(somaVendas)
+    	return somaVendas
+    }
+  	exercicioVendas([1,3,100])
+    
     obs: Variáveis e parâmetros criados dentro da função só funcionam dentro dela.
+
+
+ *Objeto
+ 
+ 	
+ 	function showUser(userData) {
+		
+	}
