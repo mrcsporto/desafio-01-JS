@@ -11,7 +11,3 @@ if(comissao >= meta){
 } else {
     console.log('O vendedor NÃO atingiu a meta!')
 }
-
-
-
-
