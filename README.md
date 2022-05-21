@@ -1,6 +1,6 @@
 # Desafio de JS (Array e Loop)
 
-Challenge 1 - Imprimir somente os números de um array que tem strings e números usando "for"
+Challenge 1 - Imprimir somente os números de um array que forem _string_ e _number_ usando "for"
 
     let array = [false,'text_01',99,true,'33',285]
 
