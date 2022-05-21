@@ -6,7 +6,3 @@ for(let i = 0; i < inArray.length ; i++) {
         console.log(inArray[i])
     }
 }
-
-    
-
-    
