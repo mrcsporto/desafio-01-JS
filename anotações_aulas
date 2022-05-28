@@ -1,0 +1,108 @@
+#Aula 1
+
+*1 Variáveis
+  var 
+  let
+  const
+  
+*2 Tipos de dados
+  String - texto
+  Number - número
+  Boolean - (true ou false)
+  Undefined - indefinido 
+  
+*3 Operadores
+  - 3.1 Matemáticos
+      % - Resto da divisão
+      a++ Recebe o valor dele  (a = a + 1)
+// Pesquisar por mais operadores  
+
+ - 3.2 Comparações
+      > - maior
+      < - menor
+      >= - maior igual
+      <= - menor igual
+      == - igual
+      === - idêntivo (verifica valor e typeof)
+      != - Diferente
+      
+ - 3.3 Lógico
+     && - E
+     || - Ou
+     ! - Diferente
+     
+*4 Condicionais
+      if
+      else
+      else if 
+      switch
+      
+*5 Array lista de dados (é um object) Usa Array normalmente quando há um conjunto de dado semelhantes. Ex.: Lista de nomes ou lista de idades.
+  let meuArrey = [1,92,0,199,200]
+      0: 1
+      1: 92
+      3: 0
+      4: 299
+      5: 200
+    
+/ /Arrey dentro do Arrey
+    meuArrey[1] = [1,2,3]
+      0: Arrey(3)
+      1: 92
+      3: 0
+      4: 299
+      5: 200
+    
+*6 Loops
+  for(início;condição;final de cada ciclo)
+  
+  let meuArrey = [1,92,0,199,200]
+  
+  for(let i = 0; i < 5; i++) {
+
+  console.log(i) =>> 0,1,2,3,4
+  console.log(meuArrey[i]) [1,92,0,199,200]
+}
+
+// Condição é o tamanho do Arrey
+  for(let i = 0; i < meuArrey.length; i++) {
+}
+
+*7 Funções
+
+
+*8 Objetos (similar ao Array porém é m
+elhor para mesclas vários tipos de dados) 
+
+let obj = {
+  nome: "Carlos",
+  idade: 31,
+  casado: true,
+  experiências: ["CSS", "HTML", "JS"],
+  contatos: {
+    tel: "(85) 9994-9993",
+    email: "email@email.com",
+    github: "meugithub",
+  },
+}
+
+function criarApresentacao() {
+    console.log("Nome: " + obj.nome , "\nIdade: " + obj.idade + " anos" , "\nContatos: " + obj.contatos.email + ", " + obj.contatos.github + ", " + obj.contatos.tel)
+}
+criarApresentacao()
+
+
+-> Variável fora da função são visíveis dento da função
+-> Conflito de nome entre uma variável externa e um parâmetro, somente o parâmetro é considerado dentro da função
+
+
+function func (a) {
+    let v = a + 1
+    return v
+}
+
+let b = func(10)
+
+b = 11 
+
+
