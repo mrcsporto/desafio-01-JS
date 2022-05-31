@@ -105,4 +105,24 @@ let b = func(10)
 
 b = 11 
 
+function calcularIdade(nome, anoNascimento){
+  let data = new Date()
+  let idade = data.getFullYear() - anoNascimento
+
+console.log(nome + " tem " + idade + " anos.")
+}
+
+calcularIdade("Nath", 1988)
+
+
+const calcularIdade = (nome, anoNascimento) => {
+	let data = new Date()
+	let idade = data.getFullYear() - anoNascimento
+
+console.log(nome + " tem " + idade + " anos.")
+}
+
+calcularIdade("Nath", 1988)
+
+
 
