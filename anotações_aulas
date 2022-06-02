@@ -125,4 +125,16 @@ console.log(nome + " tem " + idade + " anos.")
 calcularIdade("Nath", 1988)
 
 
+*8 API
+HTML
+<div id="pokedex-page" class="row">
+
+JS
+const div = document.createElement("div")
+div.innerHTML = "Criando uma pokedex"
+console.log(div)
+
+const page = document.querySelector("#pokedex-page")
+page.appendChild(div)
+
 
