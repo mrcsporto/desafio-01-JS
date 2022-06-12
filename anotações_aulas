@@ -137,4 +137,11 @@ console.log(div)
 const page = document.querySelector("#pokedex-page")
 page.appendChild(div)
 
+*Eventos
+
+click getElementById.addEventListener("click",action)
+getElementById -> (button/div/a)
+"click" -> string evento
+action -> função
+
 
